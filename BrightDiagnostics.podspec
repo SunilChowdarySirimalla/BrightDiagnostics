@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary       = "BrightDiagnostics XCFramework"
   spec.description   = "BrightDiagnostics XCFramework is a framework for both iOS and tvOS"
   spec.source        = { :git => "https://github.com/SunilChowdarySirimalla/BrightDiagnostics.git", :tag => spec.version }
-  spec.vendored_frameworks = 'BrightDiagnostics.xcframework'
+  spec.source_files = 'BrightDiagnostics.xcframework/**/BrightDiagnostics.framework/Headers/*.h'
   spec.swift_version = "5.0"
   
 end
